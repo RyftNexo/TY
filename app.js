@@ -3,11 +3,11 @@ const app = express()
 const port = process.argv.PORT ||  3000
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello Everybody!')
 })
 
 app.get("/bye", (req, res) => {
-    res.send("goodbye!")
+    res.send("Bye!")
 })
 
 app.get("/greeting", (req, res) => {
